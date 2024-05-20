@@ -112,7 +112,7 @@ uploadedFile, err := client.UploadFile(
 )
 ```
 ```go
-// Attach file with a reader (id.Reader):
+// Attach file with a reader (io.Reader):
 uploadedFile, err := client.UploadFile(params.WithReader(fileReader, "your-file-name"))
 // params.WithFolderId, params.WithServerName and params.WithFileName are available too.
 ```
