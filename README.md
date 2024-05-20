@@ -11,6 +11,8 @@ go get github.com/dvwzj/gofile
 package main
 
 import (
+    "os"
+
 	"github.com/dvwzj/gofile"
 	"github.com/dvwzj/gofile/params"
 )
