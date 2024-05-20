@@ -161,7 +161,7 @@ err := client.UpdateContent("content-id", params.WithExpiry(time.Now().Add(time.
 err := client.UpdateContent("content-id", params.WithPassword("your-password")) // Folder only
 ```
 
-#### Update content
+#### Delete content
 
 ```go
 // To delete a single content:
