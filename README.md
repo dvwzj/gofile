@@ -275,11 +275,11 @@ err := client.MoveContents("folder-id", []string{"content-id-1", "content-id-2"}
 
 ```go
 // To get your account id:
-accountId, err := client.GetAccoutId()
+accountId, err := client.GetAccountId()
 ```
 ```go
 // To get your account information:
-account, err := gofile.GetAccout()
+account, err := gofile.GetAccount()
 /**
 account = {
     Id              string
